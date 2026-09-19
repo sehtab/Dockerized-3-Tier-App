@@ -64,6 +64,7 @@ Start all three tiers (Database, Backend, Frontend) in detached mode:
 
 docker compose up --build -d
 Note for Docker V1 users: If using legacy compose, use docker-compose up --build -d.
+<img width="1136" height="809" alt="3-tier-build-1" src="https://github.com/user-attachments/assets/b483eca0-cc7e-459f-a2cb-9be397419132" />
 
 ![image](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-1.png)
 ![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-2.png)
