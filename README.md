@@ -64,13 +64,9 @@ Start all three tiers (Database, Backend, Frontend) in detached mode:
 docker compose up --build -d
 Note for Docker V1 users: If using legacy compose, use docker-compose up --build -d.
 
-![description](https://github.com/sehtab/Dockerized-3-Tier-App/blob/b2f5e9731481f6ea03bd9b88d96c083781903132/docs/images/3-tier-build-1.png)
-
-<img width="1136" height="809" alt="3-tier-build-1" src="https://github.com/user-attachments/assets/dd86b48c-7c4e-4997-b93f-0da790b49272" />
-
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/b2f5e9731481f6ea03bd9b88d96c083781903132/docs/images/3-tier-build-1.png)
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-2.png)
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/docker%20ps-test.png)
+Check: docs/images/ 3-tier-build-1.png
+       docs/images/ 3-tier-build-2.png
+       docs/images/ docker ps-test.png   
 
 
 Accessing the Application
@@ -80,8 +76,8 @@ Accessing the Application
     Backend API Health Endpoint: Open http://localhost:8080/api/health in your browser or test via curl
 
 curl http://localhost:8080/api/health
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/Dockerized-3%20tier%20app.png)
 
+check: docs/images/ Dockerized-3 tier app.png
 
 Managing the Database
 
@@ -99,7 +95,7 @@ To enter an interactive psql shell inside the running database container:
 docker exec -it app_db psql -U admin -d myapp
 (Type \q to exit)
 
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/data%20example.png)
+check docs/image/ data example.png
 
 
 Troubleshooting
@@ -110,4 +106,3 @@ Troubleshooting
 
 3. If build is not recognized, delete your previous version of docker and reinstall.
 
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/docker%20com.png)
