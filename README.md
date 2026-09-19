@@ -1,4 +1,3 @@
-# Dockerized-3-Tier-App
 # Dockerized Three-Tier Web Application
 
 A full-stack, containerized web application built with **Nginx (Frontend Proxy)**, **Node.js/Express (Backend API)**, and **PostgreSQL (Database)** orchestrated using Docker Compose.
@@ -65,7 +64,11 @@ Start all three tiers (Database, Backend, Frontend) in detached mode:
 docker compose up --build -d
 Note for Docker V1 users: If using legacy compose, use docker-compose up --build -d.
 
-![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/3153c1079dbb6e17dc0b33a973f9b7996dc49a63/doc/3-tier-build-1.png)
+![description](https://github.com/sehtab/Dockerized-3-Tier-App/blob/b2f5e9731481f6ea03bd9b88d96c083781903132/docs/images/3-tier-build-1.png)
+
+<img width="1136" height="809" alt="3-tier-build-1" src="https://github.com/user-attachments/assets/dd86b48c-7c4e-4997-b93f-0da790b49272" />
+
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/b2f5e9731481f6ea03bd9b88d96c083781903132/docs/images/3-tier-build-1.png)
 ![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-2.png)
 ![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/docker%20ps-test.png)
 
