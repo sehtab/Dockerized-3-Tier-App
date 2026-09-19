@@ -65,11 +65,9 @@ Start all three tiers (Database, Backend, Frontend) in detached mode:
 docker compose up --build -d
 
 Note for Docker V1 users: If using legacy compose, use docker-compose up --build -d.
-<img width="1136" height="809" alt="3-tier-build-1" src="https://github.com/user-attachments/assets/484c065b-fff5-474f-a1e1-a23973c61f01" />
-<img width="1380" height="652" alt="Dockerized-3 tier app" src="https://github.com/user-attachments/assets/1fcce8a2-1eeb-4859-9356-fe4685fd3b09" />
-<img width="1136" height="264" alt="docker ps-test" src="https://github.com/user-attachments/assets/48a3a2b7-c382-48ea-98ee-95a88b9e55fb" />
-<img width="1136" height="809" alt="3-tier-build-2" src="https://github.com/user-attachments/assets/c72626d9-53f2-4aeb-a8fb-ad7df3b09832" />
-
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-1.png)
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/3-tier-build-2.png)
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/docker%20ps-test.png)
 
 
 Accessing the Application
@@ -79,9 +77,7 @@ Accessing the Application
     Backend API Health Endpoint: Open http://localhost:8080/api/health in your browser or test via curl
 
 curl http://localhost:8080/api/health
-
-<img width="1159" height="407" alt="data example" src="https://github.com/user-attachments/assets/a7a92542-227b-4569-93fd-6ef00eeb3b24" />
-<img width="1380" height="652" alt="Dockerized-3 tier app" src="https://github.com/user-attachments/assets/69a47e08-f7dc-49bf-9f25-c5718bf435c8" />
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/Dockerized-3%20tier%20app.png)
 
 
 Managing the Database
@@ -99,10 +95,9 @@ To enter an interactive psql shell inside the running database container:
 
 docker exec -it app_db psql -U admin -d myapp
 (Type \q to exit)
-<img width="1159" height="407" alt="data example" src="https://github.com/user-attachments/assets/ec4f006f-b790-4ac7-b0ac-6fbfddc6f168" />
 
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/data%20example.png)
 
-<img width="755" height="426" alt="docker com" src="https://github.com/user-attachments/assets/58388f99-1033-42eb-84ce-77d2daa46a88" />
 
 Troubleshooting
 
@@ -112,3 +107,4 @@ Troubleshooting
 
 3. If build is not recognized, delete your previous version of docker and reinstall.
 
+![image alt](https://github.com/sehtab/Dockerized-3-Tier-App/blob/a38d3a1a40378f1463a47a805a4dcbb26f28a543/docker%20com.png)
