@@ -102,7 +102,8 @@ Troubleshooting
 
     1.Port Already in Use: If port 8080 is taken, edit docker-compose.yml under frontend.ports and map to another host port (e.g., "8081:80").
 
-    2.Database Table Missing: If init.sql was added after your first run, PostgreSQL's initialization entrypoint won't re-execute automatically. Run docker compose down -v to reset the database volume and run docker compose up -d again.
+    2.Database Table Missing: If init.sql was added after your first run, PostgreSQL's initialization entrypoint won't re-execute automatically.
+       Run docker compose down -v to reset the database volume and run docker compose up -d again.
 
-3. If build is not recognized, delete your previous version of docker and reinstall.
+    3. If build is not recognized, delete your previous version of docker and reinstall.
 
